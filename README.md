@@ -71,6 +71,57 @@ mvn checkstyle:check
 
 ![Image](https://github.com/user-attachments/assets/6c5a4c16-9c71-463d-9629-59f5c976213a)
 
+## Probando el REST ##
+
+Vamos a comprobar los endpoints de nuestra API
+
+```bash
+curl -X GET "http://localhost:35000/app/hello?name=Sebas"
+```
+
+Esperamos lo siguiente:
+
+![Image](https://github.com/user-attachments/assets/d39a131a-0c46-4156-8599-95d7d5fb59f5)
+
+Vamos a registrar un usuarion
+
+```bash
+curl -X POST -d "name=Sebas" http://localhost:35000/app/hello
+```
+
+Esperamos lo siguiente:
+
+![Image](https://github.com/user-attachments/assets/ccf6b67a-9e74-49e2-87aa-fb6dc66b472e)
+
+
+## Pruebas automatizadas ##
+
+Este proyecto incluye pruebas automatizadas para garantizar su correcto funcionamiento. Ejecuta los tests con:
+
+```bash
+cd src
+javac -cp .:/path/to/junit-4.12.jar co/edu/eci/arep/HttpServerTest.java
+```
+
+## Desplieqgue ##
+
+Vamos a ejecutar el servidor como un proceso en segundo plano o configurar un servicio systemd, de la siguiente manera:
+
+```bash
+mvn exec:java -Dexec.mainClass="co.edu.eci.arep.HttpSever"
+```
+
+## Construido con ## 
+
+ - Java - Lenguaje principal utilizado
+ - Maven - Para la gestión de dependencias y automatización
+ - JUnit - Para pruebas automatizadas
+
+## Contribuciones ##
+
+Lea CONTRIBUTING.md para obtener detalles sobre nuestro código de conducta y el proceso para enviarnos solicitudes de extracción.
+
+
 
 ## 📄 Licencia
 Este proyecto está bajo la licencia [LICENSE](LICENSE). ¡Siéntete libre de contribuir! 😊
