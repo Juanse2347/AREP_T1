@@ -64,6 +64,8 @@ Puedes ejecutar pruebas con JUnit:
 mvn test
 ```
 
+![Image](https://github.com/user-attachments/assets/5a05d04f-05c6-48f2-9a22-636fec2176d1)
+
 ## 📄 Licencia
 Este proyecto está bajo la licencia [LICENSE](LICENSE). ¡Siéntete libre de contribuir! 😊
 
