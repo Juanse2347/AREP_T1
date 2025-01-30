@@ -16,23 +16,23 @@ Este proyecto implementa un **servidor web distribuido** en Java, capaz de manej
 ## 🚀 Instalación y Ejecución
 ### 1️⃣ Clonar el repositorio
 ```bash
-git clone https://github.com/Juanse2347/servidor-web-java.git
-cd servidor-web-java
+git clone https://github.com/Juanse2347/AREP_T1
+cd AREP_T1
 ```
 
 ### 2️⃣ Compilar el proyecto con Maven
 ```bash
-mvn clean package
+mvn clean install
 ```
 
 ### 3️⃣ Ejecutar el servidor
 ```bash
-java -jar target/servidor-web.jar
+mvn exec:java -Dexec.mainClass="co.edu.eci.arep.HttpServer"
 ```
 
 ### 4️⃣ Probar con un navegador o `curl`
 ```bash
-curl http://localhost:8080/
+curl http://localhost:35000/
 ```
 
 ## 🏗️ Arquitectura
