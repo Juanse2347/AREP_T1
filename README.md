@@ -119,11 +119,23 @@ mvn exec:java -Dexec.mainClass="co.edu.eci.arep.HttpSever"
 
 ## Contribuciones ##
 
-Lea [CONTRIBUTING.md](CONTRIBUTING.md) para obtener detalles sobre nuestro código de conducta y el proceso para enviarnos solicitudes de extracción.
+Lea [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) para obtener detalles sobre nuestro código de conducta y el proceso para enviarnos solicitudes de extracción.
 
+## Control de Versiones ##
 
+Usamos [SemVer](http://semver.org/) para controlar las versiones.
+
+## Autor ##
+
+* **Juan Sebastian Sanchez** - *Trabajo Inicial* - [Juanse2347](https://github.com/Juanse2347)
 
 
 ## 📄 Licencia
 Este proyecto está bajo la licencia [LICENSE](LICENSE). ¡Siéntete libre de contribuir! 😊
+
+
+## Expresiones de Gratitud ##
+
+- Inspiracion
+- Compromiso
 
