@@ -3,8 +3,6 @@
 En este taller vamos a explorar la arquitectura de las aplicaciones distribuidas. Concretamente, exploraremos la arquitectura de  los servidores web y el protocolo http sobre el que están soportados.
 
 ## 📌 Características
-- Manejo de múltiples conexiones concurrentes.
-- Balanceo de carga entre servidores.
 - Uso de **Sockets** en Java para la comunicación cliente-servidor.
 - Soporte para **HTTP GET** y **HTTP POST**.
 - Registro de logs de solicitudes.
@@ -25,39 +23,26 @@ cd AREP_T1
 mvn clean install
 ```
 
+![Image](https://github.com/user-attachments/assets/7c0ff0fd-1c54-48ba-8dff-be8ea9682f7b)
+
+
 ### 3️⃣ Ejecutar el servidor
 ```bash
 mvn exec:java -Dexec.mainClass="co.edu.eci.arep.HttpServer"
 ```
+
+![Image](https://github.com/user-attachments/assets/18d51442-87b0-44c4-93b2-b85a90dd0a7e)
+
 
 ### 4️⃣ Probar con un navegador o `curl`
 ```bash
 curl http://localhost:35000/
 ```
 
-## 🏗️ Arquitectura
-El servidor sigue un modelo **cliente-servidor distribuido** con balanceo de carga:
-1. **Servidor principal**: Recibe solicitudes y las redirige a los servidores de aplicación.
-2. **Servidores secundarios**: Procesan las solicitudes y devuelven las respuestas.
-3. **Clientes**: Envían solicitudes HTTP.
+![Image](https://github.com/user-attachments/assets/1cfe8477-8de1-4dd7-961c-7f2fd3057542)
 
-```
-Cliente --> Servidor Principal --> Servidores Secundarios
-```
-
-## 📜 Configuración
-Puedes modificar la configuración en el archivo `config.properties`:
-```properties
-server.port=8080
-server.maxThreads=100
-server.logFile=logs/server.log
-```
 
 ## 🔍 Pruebas
-Para probar el servidor:
-```bash
-curl -X GET http://localhost:8080/test
-```
 
 Puedes ejecutar pruebas con JUnit:
 ```bash
@@ -65,6 +50,27 @@ mvn test
 ```
 
 ![Image](https://github.com/user-attachments/assets/5a05d04f-05c6-48f2-9a22-636fec2176d1)
+
+## Pruebas de extremo a extremo ##
+
+Pruebas del navegador 
+
+Probamos que nuestro servicio este funcionando correctamente
+
+```bash
+http://localhost:35000/
+```
+
+## Pruebas de Estilo de Codificacion ##
+
+Con el siguiente comando realizamos las pruebas de estilo de codificación son aquellas que verifican que el código sigue las convenciones y buenas prácticas del equipo o la comunidad
+
+```bash
+mvn checkstyle:check
+```
+
+![Image](https://github.com/user-attachments/assets/6c5a4c16-9c71-463d-9629-59f5c976213a)
+
 
 ## 📄 Licencia
 Este proyecto está bajo la licencia [LICENSE](LICENSE). ¡Siéntete libre de contribuir! 😊
