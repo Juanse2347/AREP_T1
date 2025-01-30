@@ -111,21 +111,21 @@ Vamos a ejecutar el servidor como un proceso en segundo plano o configurar un se
 mvn exec:java -Dexec.mainClass="co.edu.eci.arep.HttpSever"
 ```
 
-## Construido con ## 
+## :cd: Construido con ## 
 
  - Java - Lenguaje principal utilizado
  - Maven - Para la gestión de dependencias y automatización
  - JUnit - Para pruebas automatizadas
 
-## Contribuciones ##
+## :busts_in_silhouette: Contribuciones ##
 
 Lea [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) para obtener detalles sobre nuestro código de conducta y el proceso para enviarnos solicitudes de extracción.
 
-## Control de Versiones ##
+## :school_satchel: Control de Versiones ##
 
 Usamos [SemVer](http://semver.org/) para controlar las versiones.
 
-## Autor ##
+## :bust_in_silhouette: Autor ##
 
 * **Juan Sebastian Sanchez** - *Trabajo Inicial* - [Juanse2347](https://github.com/Juanse2347)
 
@@ -134,7 +134,7 @@ Usamos [SemVer](http://semver.org/) para controlar las versiones.
 Este proyecto está bajo la licencia [LICENSE](LICENSE). ¡Siéntete libre de contribuir! 😊
 
 
-## Expresiones de Gratitud ##
+## :wave: Expresiones de Gratitud ##
 
 - Inspiracion
 - Compromiso
