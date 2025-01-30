@@ -1,6 +1,6 @@
 # Servidor Web Distribuido en Java
 
-Este proyecto implementa un **servidor web distribuido** en Java, capaz de manejar múltiples solicitudes de clientes y distribuir la carga entre varios servidores.
+En este taller vamos a explorar la arquitectura de las aplicaciones distribuidas. Concretamente, exploraremos la arquitectura de  los servidores web y el protocolo http sobre el que están soportados.
 
 ## 📌 Características
 - Manejo de múltiples conexiones concurrentes.
