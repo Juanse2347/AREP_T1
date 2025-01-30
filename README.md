@@ -65,4 +65,5 @@ mvn test
 ```
 
 ## 📄 Licencia
-Este proyecto está bajo la licencia MIT. ¡Siéntete libre de contribuir! 😊
+Este proyecto está bajo la licencia [LICENSE](LICENSE). ¡Siéntete libre de contribuir! 😊
+
