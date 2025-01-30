@@ -119,7 +119,8 @@ mvn exec:java -Dexec.mainClass="co.edu.eci.arep.HttpSever"
 
 ## Contribuciones ##
 
-Lea CONTRIBUTING.md para obtener detalles sobre nuestro código de conducta y el proceso para enviarnos solicitudes de extracción.
+Lea [CONTRIBUTING.md](CONTRIBUTING.md) para obtener detalles sobre nuestro código de conducta y el proceso para enviarnos solicitudes de extracción.
+
 
 
 
