@@ -51,7 +51,7 @@ mvn test
 
 ![Image](https://github.com/user-attachments/assets/5a05d04f-05c6-48f2-9a22-636fec2176d1)
 
-## Pruebas de extremo a extremo ##
+## 🔍 Pruebas de extremo a extremo ##
 
 Pruebas del navegador 
 
@@ -61,7 +61,7 @@ Probamos que nuestro servicio este funcionando correctamente
 http://localhost:35000/
 ```
 
-## Pruebas de Estilo de Codificacion ##
+## 🔍 Pruebas de Estilo de Codificacion ##
 
 Con el siguiente comando realizamos las pruebas de estilo de codificación son aquellas que verifican que el código sigue las convenciones y buenas prácticas del equipo o la comunidad
 
@@ -71,7 +71,7 @@ mvn checkstyle:check
 
 ![Image](https://github.com/user-attachments/assets/6c5a4c16-9c71-463d-9629-59f5c976213a)
 
-## Probando el REST ##
+## 🔍 Probando el REST ##
 
 Vamos a comprobar los endpoints de nuestra API
 
@@ -94,7 +94,7 @@ Esperamos lo siguiente:
 ![Image](https://github.com/user-attachments/assets/ccf6b67a-9e74-49e2-87aa-fb6dc66b472e)
 
 
-## Pruebas automatizadas ##
+## 🔍 Pruebas automatizadas ##
 
 Este proyecto incluye pruebas automatizadas para garantizar su correcto funcionamiento. Ejecuta los tests con:
 
@@ -103,7 +103,7 @@ cd src
 javac -cp .:/path/to/junit-4.12.jar co/edu/eci/arep/HttpServerTest.java
 ```
 
-## Desplieqgue ##
+## :office: Desplieqgue ##
 
 Vamos a ejecutar el servidor como un proceso en segundo plano o configurar un servicio systemd, de la siguiente manera:
 
